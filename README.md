@@ -1,5 +1,6 @@
 # redeNeural
 Para executar a aplicação, siga os seguintes passos:
+
 	* Descompacte os arquivos dessa pasta;
  
 	* Abra o arquivo CNN_EVM.ipynb e corrija as variaveis "folder_path" e "processed_data_path", passando a url 
