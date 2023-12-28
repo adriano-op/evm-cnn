@@ -908,30 +908,30 @@ def create_cnn_based_on(window_size, num_channels, num_classes, remove_last_laye
 
     model.add(Input(shape=(window_size, num_channels)))
 
-    model.add(Conv1D(256, kernel_size=5, activation='relu', padding='causal', name='Conv1', kernel_regularizer=regularizers.l2(0.01)))
+    model.add(Conv1D(256, kernel_size=5, activation='relu', padding='causal', name='Conv1'))
     model.add(BatchNormalization(name='Norm1'))
     model.add(MaxPooling1D(strides=2, name='Pool1'))
 
-    model.add(Conv1D(128, kernel_size=5, activation='relu', padding='causal', name='Conv2', kernel_regularizer=regularizers.l2(0.01)))
+    model.add(Conv1D(128, kernel_size=5, activation='relu', padding='causal', name='Conv2'))
     model.add(BatchNormalization(name='Norm2'))
     model.add(MaxPooling1D(strides=2, name='Pool2'))
 
-    model.add(Conv1D(256, kernel_size=5, activation='relu', padding='causal', name='Conv3', kernel_regularizer=regularizers.l2(0.01)))
+    model.add(Conv1D(256, kernel_size=5, activation='relu', padding='causal', name='Conv3'))
     model.add(BatchNormalization(name='Norm3'))
     model.add(MaxPooling1D(strides=2, name='Pool3'))
 
     model.add(Flatten())
 
-    model.add(Dense(128, activation='relu', name='FC1', kernel_regularizer=regularizers.l2(0.001)))
+    model.add(Dense(128, activation='relu', name='FC1'))
     model.add(Dropout(0.3, name='Dropout_FC1'))
   
-    model.add(Dense(num_classes, activation='relu', name='FC2', kernel_regularizer=regularizers.l2(0.001)))
+    model.add(Dense(num_classes, activation='relu', name='FC2'))
     model.add(Dropout(0.2, name='Dropout_FC2'))
     
     
     if not remove_last_layer:
         model.add(Dropout(0.2, name='Drop'))
-        model.add(Dense(num_classes, activation='softmax', name='Output', kernel_regularizer=regularizers.l2(0.01)))
+        model.add(Dense(num_classes, activation='softmax', name='Output'))
 
     return model
 
