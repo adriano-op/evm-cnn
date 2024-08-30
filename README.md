@@ -28,6 +28,9 @@ Pandas
 sklearn
 matplotlib
 
+# Basic usage
+
+
 # redeNeural
 A pasta DataSet_CSV_V2, possui dados dos 56 voluntários, gravados em 2 sessões.
 
