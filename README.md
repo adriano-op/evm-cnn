@@ -16,7 +16,7 @@ With technological advancements enhancing the capabilities of mobile devices to 
 
 # Getting started
 ## Dependencies
-The quickest way to get started is to install the tensorflow distribution, a lightweight minimal installation of Anaconda Python.
+The quickest way to get started is to install the [tensorflow](https://www.tensorflow.org/) distribution, a lightweight minimal installation of Anaconda Python.
 
 # redeNeural
 A pasta DataSet_CSV_V2, possui dados dos 56 voluntários, gravados em 2 sessões.
