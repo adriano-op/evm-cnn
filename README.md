@@ -54,7 +54,6 @@ parser.add_argument('--novmode', action='store_true', help="The model won't run 
 parser.add_argument('--training_epochs', type=int, required=True, help='Total number of training epochs')
 
 
-The CNN_EVM.ipynb file is a version for Google Colab. Change the hardware accelerator to a T4 GPU in the runtime environment.
 
 Without data generators:
 
