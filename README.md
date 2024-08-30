@@ -13,6 +13,11 @@ With technological advancements enhancing the capabilities of mobile devices to 
 ## Methodology applied to CNN
 ![modelagem_cnn_novo_1](https://github.com/user-attachments/assets/fb58d074-a139-4d06-bcf9-7c2b2a11d5aa)
 
+
+# Getting started
+## Dependencies
+The quickest way to get started is to install the tensorflow distribution, a lightweight minimal installation of Anaconda Python.
+
 # redeNeural
 A pasta DataSet_CSV_V2, possui dados dos 56 voluntários, gravados em 2 sessões.
 
