@@ -46,12 +46,14 @@ After execution, the model will be saved in Keras format, and the processing res
 
 ```python
 parser.add_argument('--datagen', action='store_true', help='The model will use data generators to crop data on the fly')
-parser.add_argument('--nofit', action='store_true', help="model.fit will not be executed. The weights will be loaded from the 'model_weights.keras' file, which is generated if you have run the model in Identification mode at least once")
+parser.add_argument('--nofit', action='store_true', help="model.fit will not be executed. The weights will be loaded from the 'model_weights.keras' file,
+ which is generated if you have run the model in Identification mode at least once")
 parser.add_argument('--noimode', action='store_true', help="The model won't run in Identification Mode")
 parser.add_argument('--novmode', action='store_true', help="The model won't run in Verification Mode")
 parser.add_argument('--training_epochs', type=int, required=True, help='Total number of training epochs')
 
 
+The CNN_EVM.ipynb file is a version for Google Colab. Change the hardware accelerator to a T4 GPU in the runtime environment.
 
 Without data generators:
 
@@ -66,7 +68,7 @@ Without verification mode:
 
 In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM_biometrics.py --novmode --training_epochs 100.
  
-  
-# The CNN_EVM.ipynb file is a version for Google Colab. Change the hardware accelerator to a T4 GPU in the runtime environment.
+```
+
 
 	
