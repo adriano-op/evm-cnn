@@ -67,6 +67,6 @@ Without verification mode:
 In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM_biometrics.py --novmode --training_epochs 100.
  
   
-
+# The CNN_EVM.ipynb file is a version for Google Colab. Change the hardware accelerator to a T4 GPU in the runtime environment.
 
 	
