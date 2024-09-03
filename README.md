@@ -70,7 +70,7 @@ In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM
  
 ```
 # Documentation
-The full article of the   is available at  []
+The full article of the   is available at  [Exploring_Remote_Cardiac_Signals_for_Biometric_Verification]Exploring_Remote_Cardiac_Signals_for_Biometric_Verification.pdf
 
 
 	
