@@ -69,6 +69,8 @@ Without verification mode:
 In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM_biometrics.py --novmode --training_epochs 100.
  
 ```
+# Documentation
+The full article of the   is available at  []
 
 
 	
