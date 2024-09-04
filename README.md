@@ -77,14 +77,17 @@ The full article of the   is available at [Exploring_Remote_Cardiac_Signals_for_
 # Reference
 If you use this code, please cite the papers:
 
+```bibtex
 @article{andrade2024exploring,
   title={Exploring Remote Cardiac Signals for Biometric Verification: A Study Using Eulerian Video Magnification},
-  author={Andrade, Adriano F. and Silva, Guilherme and Silva, Pedro and Oliveira, Dênis and Moreira, Gladston and Luz, Eduardo},
+  author={Andrade, Adriano F. and Silva, Guilherme and Silva, Pedro and Oliveira, Dênis e Moreira, Gladston e Luz, Eduardo},
   booktitle={Proceedings of the IEEE Conference},
   year={2024},
   organization={IEEE},
   address={Ouro Preto, MG, Brazil},
   publisher={IEEE}
+}
+``bibtex
 }
 
 
