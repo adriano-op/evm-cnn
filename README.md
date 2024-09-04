@@ -87,8 +87,7 @@ If you use this code, please cite the papers:
   address={Ouro Preto, MG, Brazil},
   publisher={IEEE}
 }
-``bibtex
-}
+
 
 
 	
