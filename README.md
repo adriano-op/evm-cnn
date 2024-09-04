@@ -1,3 +1,5 @@
+# Exploring Remote Cardiac Signals for Biometric Verification: A Study Using Eulerian Video Magnification
+
 # Description
 With technological advancements enhancing the capabilities of mobile devices to capture physiological data, new human characteristics are increasingly being explored for the development of biometric systems. The remote cardiac signal, obtained through the Eulerian Video Magnification (EVM) technique from image sequences, emerges as a promising physiological trait in this evolving landscape. This study aims to assess the viability of the remote cardiac signal as a biometric modality for verification tasks. The methodology includes data collection in a controlled environment, transforming video sequences into one-dimensional signals using the EVM technique, filtering unwanted frequencies from the signal, and employing a simple convolutional neural network for data representation. A one-against-all protocol for biometric verification evaluation complements this approach. Experiments on a dataset containing videos of 56 individuals yielded an Equal Error Rate (EER) of 13%.
 
