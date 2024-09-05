@@ -30,6 +30,7 @@ The quickest way to get started is to install the [TensorFlow](https://www.tenso
 - Matplotlib
 
 # Basic Usage
+## Datasets
 The `DataSet_CSV_V2` folder contains data from 56 volunteers, recorded in 2 sessions. Each volunteer has a folder with 2 files: file 1 corresponds to session 1 and file 2 to session 2.
 
 To run the application, follow the steps below:
