@@ -60,16 +60,16 @@ parser.add_argument('--training_epochs', type=int, required=True, help='Total nu
 
 Without data generators:
 
-In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM_biometrics.py --training_epochs 100.
+In the terminal, run the file: python3  EVM_biometrics.py --training_epochs 100.
 This will execute with --datagen=False (without data generator) and will also run in noimode and novmode.
 
 With data generator:
 
-In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM_biometrics.py --datagen --training_epochs 100.
+In the terminal, run the file: python3  EVM_biometrics.py --datagen --training_epochs 100.
 
 Without verification mode:
 
-In the terminal, run the file: python3 /media/work/adrianoandrade/redeNeural/EVM_biometrics.py --novmode --training_epochs 100.
+In the terminal, run the file: python3  EVM_biometrics.py --novmode --training_epochs 100.
  
 ```
 # Documentation
