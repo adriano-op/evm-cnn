@@ -85,7 +85,7 @@ If you use this code, please cite the papers:
   booktitle={Proceedings of the IEEE Conference},
   year={2024},
   organization={IEEE},
-  address={Ouro Preto, MG, Brazil},
+  location={Bogota, Colombia},
   publisher={IEEE}
 }
 
